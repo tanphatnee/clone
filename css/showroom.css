@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.header__container, .list__product {
+    font-size: 1.6em !important;
+}
+
+.footer p, .shopping__online, .complain, .showroom__system {
+    font-size: 1.3em;
+}
+
+.nav__overlay, .product__overlay, .input__overlay, .cart__overlay, .nav__overlay p {
+    font-size: 1.2em;
+}
+
+.footer {
+    font-size: 10px;
+}
+
+.fanpage p {
+    display: flex;
+}
+.showroom__system p {
+    display: flex;
+}
+
+.shopping__online p, .complain p {
+    padding: 0;
+    margin: 0;
+}
+
+.company__name span {
+    font-size: 1em;
+    margin-top: 3em;
+}
+
+.complain p {
+    display: flex;
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    overflow: auto;
+}
+html{
+    font-size: 62.5%;
+}
+
+.bgimg {
+    margin-top: 60px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--main-bg-color);
+    overflow-x: hidden;
+}
+h1, p, h4{ 
+    text-align: center;
+    padding: 2px;
+}
+p, figcaption{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.8rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.sectionContentStore{
+    display: flex;
+    width: 60rem;
+    margin: auto;
+    padding: .5rem;
+
+}
+.sectionTitleStore {
+    text-align: center;
+	margin: 0 0 3rem 0;
+}
+.sectionTitleStore h1 {
+	margin: 3rem 0 1rem 0;
+	font-weight: normal;
+	font-size: 2.6rem;
+}
+/*  */
+.st__container {
+    width: 100%;
+}
+.leftCollumStore {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+.leftCollumStore select {
+	height: 4rem;
+	font-size: 1.4rem;
+	outline: none;
+	background: white;
+	border: .1rem solid #cecece;
+	font-weight: 400;
+	margin-bottom: .5rem;
+	width:45%;
+	padding: 0 2rem;
+}
+.storeIntro{ 
+    padding-top: 5rem;
+}
+.inline-block {
+    display: inline-block;
+ }
+.column-img {
+    float: left;
+    padding: 1rem;
+    position: relative;
+    max-width: 33.33%;
+}
+.column-img img {
+    width: 100%;
+}
+.column-img figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    background:rgba(255,255,255,0.5);
+}
+.row-img:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .main-content { 
+      padding-left: 1rem;
+  }
+  /* responsive */
+/* <740px */
+@media only screen and (max-width: 1200px) {
+   html{
+       /* font-size: 60%; */
+   }
+   .nav__overlay, .product__overlay, .input__overlay, .cart__overlay, .nav__overlay p {
+        font-size: 1.6em;
+    }
+}
+@media only screen and (max-width: 990px) {
+    html{
+        /* font-size: 55%; */
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    html{
+        /* font-size: 53%; */
+    }
+    .leftCollumStore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .leftCollumStore select{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    html{
+        /* font-size: 50%; */
+    }
+    figcaption{
+        font-size: 1.3rem;
+    }
+    .leftCollumStore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .leftCollumStore select{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .nav__overlay, .product__overlay, .input__overlay, .cart__overlay, .nav__overlay p {
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    html{
+        /* font-size: 48%; */
+    }
+    figcaption{
+        display: none;
+    }
+    .sectionContentStore {
+        width: 100%;
+        justify-content: center;
+    }
+    .leftCollumStore{
+        width: 100%;
+        /* flex-direction: row; */
+    }
+    .leftCollumStore select{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+    .nav__overlay, .product__overlay, .input__overlay, .cart__overlay, .nav__overlay p {
+        font-size: 1.2em;
+    }
+}
+

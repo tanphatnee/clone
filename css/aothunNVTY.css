@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.first img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.container1-1{
+    margin-bottom: 20px;
+}
+.appear2, .img2-first{
+    display: none;
+    
+}
+.container1-1 ,.container1-2,.container1-3{
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+}
+.container-left ,.container-right{
+    width: 90%;
+    margin-right: 0px;
+    margin-left: 10%;
+    /* width: 500px;
+    padding: 2px;
+    align-content: center; */
+}
+
+
+.container-left img{
+    position: absolute;
+    width:95%;
+    padding-bottom: 100%;
+    /* margin-left: 15%; */
+
+}
+.container-right{
+    width: 100%;
+    margin-right: 10%;
+    
+}
+.container-right-top p{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container-right-top img{
+    padding: 50px 20px;
+    width: 50%;
+    margin-left: 20%;
+    /* align-content: center;
+    justify-content: center; */
+
+    /* margin-bottom: 40px;
+    margin-top: 30px;*/
+} 
+
+.container-right-top h5{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.container-right-bottom-colorsize {
+    display: flex;
+    margin-left: 30px;
+}
+.container-right-bottom-color {
+    margin-right: 30px;
+}
+.container-right-bottom-color  img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+.size {
+    margin-left: 30px;
+}
+.container-right-bottom{
+    display: flex;
+}
+
+.container-right-bottom-right{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+} 
+
+@media (max-width: 1024px) { 
+    .container-right-top img{
+        display: none;
+    }
+ }
+
+
+ @media (max-width: 768px) { 
+     .img2-first,.appear2{
+         display: block;
+         margin-left: 8px;
+     }
+     .appear1,.img1{
+         display: none;
+     }
+     
+     .container1,.container1-1,.row{
+        display: block;
+     }
+
+  } 
+
+
+

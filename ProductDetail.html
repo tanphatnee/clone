@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/detail.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <title>Mua Hàng</title>
+</head>
+<body>
+  <!-- header -->
+   <!-- header -->
+   <div class="header">
+    <div class="header__container">
+        <!-- bar icon -->
+        <div class="bar__icon">
+            <div class="bar__item">
+                <i class="fal fa-bars"></i>
+            </div>
+        </div>
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./images/pageOneImages/logo-svg.svg" alt="logo">
+            </a>
+        </div>
+
+        <!-- nav-list -->
+        <div class="nav__list">
+            <a href="allNewProduct.html">
+                <div class="list__item list__item1">HÀNG MỚI</div>
+            </a>
+            <a href="./allProductNew.html">
+                <div class="list__item list__item2">
+                    SẢN PHẨM
+                    <i class="fa fa-sort-down"></i>
+                </div>
+            </a>
+            <a href="./aoThunNiemThietYeu.html">
+                <div class="list__item list__item3">ÁO THUN "NIỀM VUI THIẾT YẾU"</div>
+            </a>
+            <a href="./shop_lac_quan_page_1.html">
+                <div class="list__item list__item4">SALE LẠC QUAN</div>
+            </a>
+            <a href="./showroom.html">
+                <div class="list__item list__item5">SHOWROOM</div>
+            </a>
+        </div>
+
+        <!-- input -->
+        <div class="input__search">
+            <div class="input__content">
+                <input class="input__box" type="text" placeholder="Tìm kiếm">
+                <i class="fal fa-search"></i>
+            </div>
+        </div>
+
+        <!-- cart -->
+        <div class="cart">
+            <i class="fal fa-user-alt"></i>
+            <i class="fal fa-shopping-bag"></i>
+        </div>
+
+        <!-- login overlay -->
+        <div class="login__overlay">
+            <!-- sign in -->
+            <div class="sign__in">
+                <div class="sign__in__container">
+                    <h4 class="sign__in__title">Welcome Back!</h4>
+                    <div class="user__name__in">
+                        <p>Tên đăng nhập:</p>
+                        <input class="input__user__name__in" type="text" placeholder="Tên đăng nhập...">
+                    </div>
+                    <div class="password__in">
+                        <p>Mật khẩu:</p>
+                        <input class="input__password__in" type="password" placeholder="Mật khẩu...">
+                    </div>
+                    <div class="forgot__pass">
+                        <span class="create__account">Đăng ký</span>
+                        <span class="forgot__password">Quên mật khẩu?</span>
+                    </div>
+                    <div class="sign__in__btn">Đăng Nhập</div>
+                </div>
+            </div>
+
+            <!-- sign up -->
+            <div class="sign__up">
+                <div class="sign__up__container">
+                    <h4 class="sign__up__title">
+                        <i class="fal fa-long-arrow-left back"></i>
+                        <p class="register">Đăng Ký Tài Khoản</p>
+                        <p class="reset__password">Đặt Lại Mật Khẩu</p>
+                    </h4>
+                    <div class="user__name__up">
+                        <p>Tên đăng nhập:</p>
+                        <input class="input__user__name__up" type="text" placeholder="Tên đăng nhập...">
+                    </div>
+                    <div class="password__up">
+                        <p>Mật khẩu:</p>
+                        <input class="input__password__up" type="password" placeholder="Mật khẩu...">
+                    </div>
+                    <div class="password__up__again">
+                        <p>Xác nhận mật khẩu:</p>
+                        <input class="input__password__up__again" type="password" placeholder="Xác nhận mật khẩu...">
+                    </div>
+                    <div class="sign__up__btn">Đăng Ký</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Nav-overlay -->
+    <div class="nav__overlay">
+        <div class="nav__overlay__content">
+            <!-- nav top -->
+            <div class="nav__content__top">
+                <!-- menu -->
+                <div class="nav__overlay__menu">
+                    <p>Menu</p>
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <!-- list -->
+                <div class="nav__overlay__list">
+                    <a href="allNewProduct.html">
+                        <div class="nav__item item1">Hàng Mới</div>
+                    </a>
+                    <div class="nav__item item2">
+                        <a href="./allProductNew.html">
+                            <span>Sản Phẩm</span>
+                        </a>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <a href="./aoThunNiemThietYeu.html">
+                        <div class="nav__item item3">Áo Thun "Niềm Vui Thiết Yếu"</div>
+                    </a>
+                    <a href="./shop_lac_quan_page_1.html">
+                        <div class="nav__item item4">Sale Lạc Quan</div>
+                    </a>
+                    <a href="./showroom.html">
+                        <div class="nav__item item5">Showroom</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- nav-footer -->
+            <div class="nav__overlay__footer">
+                <div class="top">
+                    <div class="top__left">
+                        <i class="fal fa-user-alt"></i>
+                        TÀI KHOẢN CỦA TÔI  
+                    </div>
+                    <div class="top__right">
+                        MEMBERSHIP
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <p>
+                        Miễn phí giao hàng với hoá đơn 300.000 đồng.
+                        Thời gian đổi trả sản phẩm lên đến 30 ngày.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- list product overlay mobile -->
+    <div class="product__overlay">
+        <div class="product__overlay__content">
+            <div class="product__content__top">
+                <div class="product__overlay__menu">
+                    <p>Sản Phẩm</p>
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <!-- list -->
+                <div class="product__overlay__list">
+                    <a href="proShoes.html">
+                        <div class="product__overlay__item pr__over__item1">Giày</div>
+                    </a>
+                    <a href="proBags.html">
+                        <div class="product__overlay__item pr__over__item2">Túi</div>
+                    </a>
+                    <a href="proGlasses2.html">
+                        <div class="product__overlay__item pr__over__item3">Phụ Kiện</div>
+                    </a>
+                    <a href="proTShirt.html">
+                        <div class="product__overlay__item pr__over__item4">Áo Thun</div>
+                    </a>
+                    <a href="./allProductNew.html">
+                        <div class="product__overlay__item pr__over__item5">Bộ Sưu Tập</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- <div class="overlay__user"></div> -->
+
+    <!-- input-overlay -->
+    <div class="input__overlay">
+        <div class="input__overlay__container">
+            <input class="overlay__box__item" type="text" placeholder="Tìm kiếm...">
+            <i class="fal fa-times"></i>
+        </div>
+    </div>
+
+    <!-- Cart overlay -->
+    <div class="cart__overlay">
+        <div class="cart__overlay__container">
+            <div class="cart__overlay__top">
+                <p>GIỎ HÀNG</p>
+                <i class="fal fa-times"></i>
+            </div>
+            <p class="count__product">Bạn đang có <strong>0</strong> sản phẩm trong giỏ hàng.</p>
+            <p class="present__product">Hiện chưa có sản phẩm</p>
+            <div class="line__cart__overlay"></div>
+            <div class="sum__price">
+                <h6>TỔNG TIỀN TẠM TÍNH:</h6>
+                <h6>0đ</h6>
+            </div>
+            <div class="open__cart">
+                XEM GIỎ HÀNG
+            </div>
+        </div>
+    </div>
+
+</div> 
+  <!-- Product -->
+  <section class="product">
+    <div class="container">
+      <div class="product-content row">
+        <div class="product-content-left row">
+          <div class="product-content-left-img1">
+            <div class="product-content-left-big-img">
+             <img src="./images/DetailProducts/Shirt1.jpg" alt="">
+            
+            </div>
+            <div class="product-content-left-small-img">
+              <img src="./images/DetailProducts/Shirt2.jpg" alt="">
+              <img src="./images/DetailProducts/Shirt3.jpg" alt="">
+              <img src="./images/DetailProducts/Shirt4.jpg" alt="">
+              <img src="./images/DetailProducts/Shirt5.jpg" alt="">
+
+            </div>
+          </div>  
+
+          <div class="product-content-left-img2">
+            <div class="product-content-left-big-img">
+             <img src="./images/DetailProducts/shirt_cl_2.1.jpg" alt="">
+            
+            </div>
+            <div class="product-content-left-small-img">
+              <img src="./images/DetailProducts/shirt_cl_2.2.jpg" alt="">
+              <img src="./images/DetailProducts/shirt_cl_2.3.jpg" alt="">
+              <img src="./images/DetailProducts/shirt_cl_2.4.jpg" alt="">
+              <img src="./images/DetailProducts/shirt_cl_2.5.jpg" alt="">
+
+            </div>
+          </div>  
+
+          <div class="product-content-left-img3">
+            <div class="product-content-left-big-img">
+             <img src="./images/DetailProducts/shirt_cl_3.1.jpg" alt="">
+            
+            </div>
+            <div class="product-content-left-small-img">
+              <img src="./images/DetailProducts/shirt_cl_3.2.jpg" alt="">
+            </div>
+          </div>   
+          
+          
+        </div>
+        <div class="product-content-right ">
+          <div class="product-content-right-product-name">
+            <div class="product-content-right-product-name-style">
+              <p > Hàng Mới</p>
+            </div>
+    
+            <h5>Áo Thun "Chích Rồi Ôm Tí"<h5>
+          </div>
+          <div class="product-content-right-product-price">
+            <p>249,000  <u>đ</u></p>
+          </div>
+          <div class="product-content-right-product-colour">
+            <div class="product-content-right-product-colour-img">
+              <span><img  src="./images/DetailProducts/sh1-color1.jpg" alt="" class="colour1"></span>
+              <span><img src="./images/DetailProducts/sh1-color2.jpg" alt="" class="colour2"></span>
+              <span><img src="./images/DetailProducts/sh1-color3.jpg" alt="" class="colour3"></span>
+            </div>
+          </div>
+          <div class="product-content-right-product-size">
+            <span>F</span>
+          </div>
+          <div class="product-content-right-product-button-style">
+
+            <button class="btn btn1" style="display: block;" id="">MUA NGAY</button>
+            <button class="btn" style="display: block;" id="">TÌM SẢN PHẨM TẠI SHOWROOM</button>
+          </div>
+            
+          <div class="product-content-right-product-infor">
+              <p><a style="color: #000; " href=""> <b>Đăng nhập</b></a> để tích điểm và hưởng quyền lợi thành viên từ JUNO</p>
+              <p>MIỄN PHÍ GIAO HÀNG TOÀN QUỐC</p>
+              <div class="product-content-right-product-infor-change">
+                <p>ĐỔI TRẢ DỄ DÀNG</p>
+                <p style="font-size: smaller;">(Đổi trả trong 7 ngày với lỗi do nhà sản xuất)</p>
+              </div>
+              <div class="product-content-right-product-infor-contact">
+                <p>TỔNG ĐÀI BÁN HÀNG 1800 1162</p>
+                <p style="font-size: smaller;">(Miễn phí từ 8h00 - 21:00 mỗi ngày)</p>
+              </div>
+              
+          </div>
+          <div class="product-content-right-detail">
+            <div class="product-content-right-detail-top">
+              &#8744
+            </div>
+            <div class="product-content-right-detail-bottom">
+              <div class="product-content-right-detail-bottom-title">
+                <div class="product-content-right-detail-bottom-title-item-mota">
+                  <h5>MÔ TẢ SẢN PHẨM</h5>
+                </div>
+                <div class="product-content-right-detail-bottom-title-item-chitiet">
+                  <h5>CHI TIẾT</h5>
+                </div>
+              </div>
+              <div class="product-content-right-detail-bottom-content">
+                <div class="product-content-right-detail-bottom-content-mota">
+                  <h6>Miêu tả: Áo thun "Hành trứng ấm êm"</h6>
+                  <p>Size: Freesize Đặc tính: Trẻ trung - hiện đại.</p>
+                  <p>Thể loại: Trang phục dạo phố, thường ngày.</p>
+                  <p> Màu sắc: Trắng - Hồng - Vàng</p>
+                  <p> Chất liệu: Thun</p>
+                  <h6>Hướng dẫn bảo quản</h6>
+                  <p>- Giặt tay bằng nước lạnh</p>
+                  <p>- Không ngâm, không tẩy</p>
+                  <p>- Giặt riêng các sản phẩm khác màu</p>
+                  <p>- Là ủi ở nhiệt độ thấp.</p>
+                  <h6>Kích thước áo</h6>
+                  <p>Dài áo: 66cm Ngang ngực: 55cm Phù hợp cho cả nam & nữ cân nặng từ 44kg - 65kg </p>
+                  <span><h6>Số đo mẫu nữ :</h6> <p> Chiều cao 1m59, 79-59-86 </p></span>
+                </div>
+                <div class="product-content-right-detail-bottom-content-chitiet">
+                  <ul>
+                    <li>Mã sản phẩm: ATH014</li>
+                    <li>Kiểu dáng: Trang phục dạo phố-thường ngày</li>
+                    <li>Chất liệu: Thun</li>
+                    <li>Màu sắc: Trắng - Hồng - Vàng</li>
+                    <li>Kích cỡ: Freesize</li>
+                    <li>Xuất xứ: Việt Nam</li>
+                    <li>Giá đã bao gồm VAT</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+
+          </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="product-content-policy">
+        <div class="product-content-policy-title">
+          <div class="product-content-policy-title-chinhsach">
+            <h5>CHÍNH SÁCH ĐỔI TRẢ</h5>
+          </div>
+          <div class="product-content-policy-title-huongdan">
+            <h5>HƯỚNG DẪN BẢO QUẢN</h5>
+          </div>
+        </div> 
+         <div class="product-content-policy-content">
+          <div class="product-content-policy-content-chinhsach">
+            <p>JUNO hiện đang áp dụng chính sách Đổi/Trả cho các sản phẩm như sau:</p>
+            <p>- Trong vòng 30 ngày kể từ ngày nhận sản phẩm Túi, Ví, Giày</p>
+            <p>- Trong vòng 7 ngày đối với sản phẩm Khuyến mãi, Giảm giá (có giá trị thanh toán dưới 250,000 đồng</p>
+            <p>- Phụ kiện (chỉ áp dụng với mắt kính, trang sức) và túi canvas được đổi/trả trong 7 ngày trong trường hợp có lỗi sản xuất</p>
+            <p>- Không áp dụng đổi trả Online với đơn hàng tại hệ thống Cửa hàng Đại lý và Cửa hàng Juno tại TTTM Sense City Phạm Văn Đồng</p>
+          </div>
+          <div class="product-content-policy-content-huongdan">
+            <p>HƯỚNG DẪN BẢO QUẢN GIÀY</p>
+            <p>>HƯỚNG DẪN BẢO QUẢN TÚI XÁCH</p>
+            <p>HƯỚNG DẪN BẢO QUẢN PHỤ KIỆN</p>
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="product-bottom">
+      <div class="product-bottom-tittle">
+        <h2 style="font-size: 30px;">Có thể nàng sẽ thích</h2>
+      </div>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+  <section class="search_diadiem">
+    <div class="search-diadiem-container">
+      <div class="search_diadiem-top">
+        <div class="search_diadiem-top-tittle">
+          <div class="search_diadiem-top-tittle-left">
+            <h6>TÌM SẢN PHẨM TẠI SHOWROOM</h6>
+          </div>
+          <div class="search_diadiem-top-tittle-right">
+            &#10005;
+          </div>
+          
+        </div>
+        <div class="search_diadiem-top-detail">
+          
+          <div class="search_diadiem-top-detail-right">
+            <div class="product-content-right-product-name">
+             
+      
+              <h6>Áo Thun "Chích Rồi Ôm Tí"<h6>
+            </div>
+            <div class="product-content-right-product-price">
+              <p>249,000  <u>đ</u></p>
+            </div>
+             <div class="product-content-right-product-colour">
+              <div class="product-content-right-product-colour-img">
+                <span><img  src="./images/DetailProducts/sh1-color1.jpg" alt="" class="colour1"></span>
+                <span><img src="./images/DetailProducts/sh1-color2.jpg" alt="" class="colour2"></span>
+                <span><img src="./images/DetailProducts/sh1-color3.jpg" alt="" class="colour3"></span>
+              </div>
+            </div>
+            <!-- <div class="product-content-right-product-size">
+              <span>F</span>
+            </div>  -->
+          </div>
+        </div>
+      </div>
+      <p>Tìm kiếm :</p> 
+      <div class="search_diadiem-bottom">
+      
+        <input type="text "class="showroom" placeholder="Tên Showroom muốn tìm ">
+        <br>
+        <p></p>
+        
+      </div>
+    </div>
+  </section>
+</body>
+</html>

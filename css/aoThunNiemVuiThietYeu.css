@@ -1,0 +1,99 @@
+/* Content */
+.T_shirt__funny__container {
+    width: 100%;
+}
+
+/* section 1 */
+.TSF__section1 {
+    width: 100%;
+    margin: 2.8em auto;
+}
+
+/* section 2 */
+.TSF__section2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.TSF__section2 .card-deck {
+    margin: 4em auto;
+}
+
+.T_shirt__funny__container .card {
+    border: none;
+    color: #de8878;
+    font-size: 1.2em;
+}
+
+.T_shirt__funny__container .card .card-img-top-lg {
+    height: 100%;
+}
+
+.T_shirt__funny__container .card h5 {
+    margin: 1em auto;
+}
+
+.TSF__btn__buy__now {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 25%;
+    max-height: 2.4em;
+    margin-top: 5%;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TSF__btn__buy__now:hover {
+    color: rgb(199, 192, 192);
+    cursor: pointer;
+}
+
+/* section 3 */
+.TSF__section3, .TSF__section4 {
+    width: 100%;
+    margin: 2em auto;
+}
+
+/* section 4 */
+.TSF__s4__container {
+    width: 84%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* 
+@media (max-width: 46.249em)
+@media (min-width: 46.25em) and (max-width: 64em)
+*/
+
+/* mobile - tablet */
+@media (max-width: 64em) {
+
+    /* section 2 */
+    .TSF__section2 .card-deck {
+        margin: 2.5em auto;
+    }
+
+    .T_shirt__funny__container .card {
+        font-size: 0.9em;
+    }
+
+    .TSF__btn__buy__now {
+        max-height: 1.8em;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.249em) {
+    
+}
+
+
